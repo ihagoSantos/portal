@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    font-family: Arial; /*Fonte padrão do site*/
+    font-size: 12px; /*tamanho de fonte padrão para todo o site*/
+}
+
+.topo{
+    height: 30px;
+    background-color: #333333;
+    color:#ffffff;
+}
+
+.topoint{
+    width: 100%; /*tamanho para responsividade - se adapta a tela*/
+    max-width: 1040px;/*a largura máxima*/
+    height: 30px;
+    margin: auto; /*centraliza a div*/
+    /*background-color: brown;*/
+}
+
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float:left;/*se alinha à esquerda*/
+    /*background-color: green;*/
+}
+
+
+.topoleft ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none; /*Remove qualquer estilo da lista, no caso as bolinhas*/
+}
+
+.topoleft li{
+    height: 30px;
+    line-height: 30px;/*centraliza o texto no espaço de 30 px de altura*/
+    float: left;/*Alinha os itens da lista um a esquerda do outro*/
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topoleft li a{
+    text-decoration: none;/*Tira o sublinhado do link*/
+    color: #ffffff;
+}
+
+.topoleft li .ativo{ /*Se o link estiver ativo*/
+    color: blue;
+}
+
+.toporight{
+    width: 50%;
+    height: 28px;
+    margin-top: 2px;
+    float:right;/*se alinha à direita*/
+    /*background-color: blue;*/
+    
+    
+}
+
+.topobusca{
+    width: 130px;
+    height: 20px;
+    outline: 0; /*tira a borda azul de quando o campo está selecionado*/
+    
+}
+
+.toporight a{
+    float: right;
+}
+
+.toporight input{
+    float: right;
+}
