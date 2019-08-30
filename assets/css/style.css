@@ -34,7 +34,7 @@ body{
 
 .topoleft li{
     height: 30px;
-    line-height: 30px;/*centraliza o texto no espaço de 30 px de altura*/
+    line-height: 30px;/*centraliza o texto no espaço de 30 px de altura - Expecifica a autura da linha*/
     float: left;/*Alinha os itens da lista um a esquerda do outro*/
     margin-left: 8px;
     margin-right: 8px;
@@ -104,7 +104,65 @@ body{
     width: 650px;
     height: 80px;
     float: right;   
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 13px;
+    margin-bottom: 15px;
     background-color: red;
+}
+
+.navbar{
+    
+    height: 40px;
+    background-color: red;   
+}
+.menu{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    
+    margin:auto;
+}
+
+.menu ul{
+    margin: o;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+    float:left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+.menu li:hover .submenu{ /*Quando o mouse estiver em cima do link(li:hover) ele entra na propriedadeod sub menu*/
+    display:block;
+}
+.menu a{
+    color: white;
+    text-decoration: none; /*Tira o sublinhado e qualquer estilo do texto*/
+}
+
+.submenu{
+    
+    background-color:#b71c1c;
+    position: absolute;
+    display: none; /*Não aparece na tela*/
+}
+
+/*
+.navbar li:hover{
+    background-color:#b71c1c;
+}
+*/
+.submenuitem{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;   
+}
+.submenuitem:hover{
+    background-color:red;
 }
