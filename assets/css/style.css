@@ -73,3 +73,38 @@ body{
 .toporight input{
     float: right;
 }
+
+.toporight img{
+    margin-right: 4px;
+}
+.toporight .lupa{
+    margin-left: 4px;
+}
+
+.topo2{
+    height: 95px;
+    /*background-color:#999;*/
+}
+
+.topo2int{
+    width: 100%; /*tamanho para responsividade - se adapta a tela*/
+    max-width: 1040px;/*a largura máxima*/
+    height: 95px;
+    margin: auto; /*centraliza a div*/
+    
+}
+.logo{
+    width: 230px;
+    height: 95px;
+    float: left;
+    margin-top: 12px;
+    
+}
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;   
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: red;
+}
